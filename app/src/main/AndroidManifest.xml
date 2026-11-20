@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 权限写在manifest标签内，application外面！ -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 下面这个看你需求，暂时不用可以删掉 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Text">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="DiscouragedApi">
+
+            <!-- exported="true"  允许外界打开，一般只在主界面设置true -->
+            <!-- windowSoftInputMode="adjustResize"   弹出软键盘时，**布局整体向上压缩**，输入框不会被键盘挡住。 -->
+            <!-- tools:ignore="DiscouragedApi"  消除警告 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- <intent-filter>            </intent-filter>  主界面标志 -->
+        </activity>
+        <activity
+            android:name=".Game"
+            android:configChanges="orientation|screenSize|screenLayout|uiMode|fontScale"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name=".Tcpactivity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="DiscouragedApi" />
+
+        <service android:name=".TcpService" />
+
+        <activity
+            android:name=".Choose_Skills"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Choose_Mode"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="adjustResize" />
+
+        <service
+            android:name=".BgmService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".Sound"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+    </application>
+
+</manifest>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/main"
+    android:background="@drawable/night_home">
+
+    <TextView
+        android:id="@+id/tcp_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.025"
+        android:gravity="center"
+        android:text="暂未链接到玩家"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/prepare_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_bias="0.025"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tcp_end"
+        app:layout_constraintBottom_toTopOf="@+id/game_tcp" />
+
+    <Button
+        android:id="@+id/game_tcp"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.15"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.25"
+        android:text="联网"
+        app:cornerRadius="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tcp_end"
+        app:layout_constraintBottom_toBottomOf="parent"  />
+
+    <Button
+        android:id="@+id/game_start"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.15"
+        android:layout_height="wrap_content"
+        android:text="开始游戏"
+        app:cornerRadius="0dp"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_tcp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/bt_bgm"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.15"
+        android:layout_height="wrap_content"
+        android:text="开关BGM"
+        app:cornerRadius="0dp"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tcp_end"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/choose_skills"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.15"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.15"
+        android:text="选择技能"
+        app:cornerRadius="0dp"
+        app:layout_constraintLeft_toRightOf="@+id/game_tcp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tcp_end"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/choose_mode"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.15"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.15"
+        android:text="选择模式"
+        app:cornerRadius="0dp"
+        app:layout_constraintLeft_toRightOf="@+id/game_tcp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_tcp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/view_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_bias="0.25"
+        android:gravity="center"
+        android:text="当前为默认模式"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choose_mode"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/view_skills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_bias="0.025"
+        app:layout_constraintHorizontal_bias="0.975"
+        android:gravity="center"
+        android:text="技能选择状况"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/view_sk_1"
+        style="@style/view_skills_show"
+        app:layout_constraintLeft_toLeftOf="@+id/view_skills"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_skills"
+        app:layout_constraintBottom_toTopOf="@+id/view_sk_2"
+        />
+    <Button
+        android:id="@+id/view_sk_2"
+        style="@style/view_skills_show"
+        app:layout_constraintLeft_toLeftOf="@+id/view_skills"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_sk_1"
+        app:layout_constraintBottom_toTopOf="@+id/view_sk_3"
+        />
+    <Button
+        android:id="@+id/view_sk_3"
+        style="@style/view_skills_show"
+        app:layout_constraintLeft_toLeftOf="@+id/view_skills"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_sk_2"
+        app:layout_constraintBottom_toTopOf="@+id/view_sk_4"
+        />
+    <Button
+        android:id="@+id/view_sk_4"
+        style="@style/view_skills_show"
+        app:layout_constraintLeft_toLeftOf="@+id/view_skills"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_sk_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/night_home"
+    tools:context=".Tcpactivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <TextView
+        android:id="@+id/ip_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ip : "
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_ip_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="刷新ip"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toRightOf="@+id/ip_view"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="返回"
+        android:textSize="24sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/showtcp_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="暂未链接到玩家"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ip_refresh" />
+
+    <Button
+        android:id="@+id/btn_tcp_view_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="刷新状态展示"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toRightOf="@+id/showtcp_view"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ip_refresh"/>
+
+
+    <LinearLayout
+        android:id="@+id/lay_daunkou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showtcp_view" >
+
+        <TextView
+            android:id="@+id/poro_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:text="当前端口:50000"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/et_poro"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:textSize="18sp"
+            android:hint="修改端口"/>
+
+        <Button
+            android:id="@+id/btn_poro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="修改端口"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lay_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lay_daunkou">
+
+        <Button
+            android:id="@+id/btn_server"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(作为房主)开启服务端"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btn_client"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(作为玩家)开启链接端"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_server_over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关闭链接双端"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lay_server"/>
+<!--    <Button-->
+<!--        android:id="@+id/btn_server_over"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="(作为玩家)关闭链接端"-->
+<!--        android:textSize="24sp"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/lay_server"/>-->
+
+
+    <Button
+        android:id="@+id/btn_game_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="游戏重新链接"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_server_over"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <EditText
+            android:id="@+id/et_ip"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textSize="36sp"
+            android:hint="输入对方ip"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

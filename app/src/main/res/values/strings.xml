@@ -1,0 +1,380 @@
+<resources>
+    <string name="app_name">Text</string>
+
+
+    <string name="sk_1_1_1">mp 10\n抽牌2\n1</string>
+    <string name="sk_1_1_2">mp 10\n图书馆\n3</string>
+    <string name="sk_1_1_3">mp 35\n滚雪球\n3</string>
+    <string name="sk_1_1_4">mp 30\n堆叠\n1</string>
+    <string name="sk_1_2_1">mp 15\n镜中镜\n3</string>
+    <string name="sk_1_2_2">mp 35\n生成\n3</string>
+    <string name="sk_1_2_3">mp 5\n循环\n3</string>
+    <string name="sk_1_2_4">mp 25\n三色牌\n3</string>
+    <string name="sk_1_3_1">mp 0\n重抽\n3</string>
+    <string name="sk_1_3_2">mp 5\n冲刺\n1</string>
+    <string name="sk_1_3_3">mp 1\n置换\n3</string>
+    <string name="sk_1_3_4">mp 20\n根除\n3</string>
+
+    <string name="view_1_1_1">抽两张牌\n仅能使用一次</string>
+    <string name="view_1_1_2">仅Combo为2或以下才能使用\n抽牌直到手牌达到5牌\n可使用三次</string>
+    <string name="view_1_1_3">抽取 (5 - 剩余使用次数) 张牌\n可使用三次</string>
+    <string name="view_1_1_4">抽一张牌，且之后抽牌数+1</string>
+    <string name="view_1_2_1">选择一张手牌复制并加入手牌\n可使用三次</string>
+    <string name="view_1_2_2">生成三张数值随机，花色为 x 的卡牌加入手牌</string>
+    <string name="view_1_2_3">选择一张手牌丢弃，下回合开始时额外抽取两张牌\n可使用三次</string>
+    <string name="view_1_2_4">选择一张手牌丢弃，生成三张数值相同，花色随机但不与原来相同的卡牌并加入手牌\n可使用三次</string>
+    <string name="view_1_3_1">仅Combo为0才能使用\n将手牌放回牌库，然后随机抽取相同数量的手牌\n可使用三次</string>
+    <string name="view_1_3_2">仅Combo为0才能使用\n抽三张牌</string>
+    <string name="view_1_3_3">选择一张手牌丢弃，抽取一张牌\n可使用三次</string>
+    <string name="view_1_3_4">选择一张手牌丢弃，抽取三张牌\n可使用三次</string>
+
+
+    <string name="sk_2_1_1">mp 5\n繁茂\n1</string>
+    <string name="sk_2_1_2">mp 1\n种子\n1</string>
+    <string name="sk_2_1_3">mp 1\n烈焰\n3</string>
+    <string name="sk_2_1_4">mp 0\n血之抽牌\n1</string>
+    <string name="sk_2_2_1">mp 5\n再平衡\n1</string>
+    <string name="sk_2_2_2">mp 25\n弹跳\n1</string>
+    <string name="sk_2_2_3">mp 15\n馈赠\n1</string>
+    <string name="sk_2_2_4">mp 10\n回收利用\n1</string>
+    <string name="sk_2_3_1">mp 25\n打折\n1</string>
+    <string name="sk_2_3_2">mp 1\n贷款\n1</string>
+    <string name="sk_2_3_3">mp 0\nhp换mp\n1</string>
+    <string name="sk_2_3_4">mp 0\ncombo!\n3</string>
+
+    <string name="view_2_1_1">获得buff:每次出牌后mp+1</string>
+    <string name="view_2_1_2">mp+15</string>
+    <string name="view_2_1_3">选择一张手牌丢弃，hp,hp上限,mp,mp上限 增加卡牌的数值\n可使用三次 选择特殊卡牌没有效果</string>
+    <string name="view_2_1_4">将血量上限降低为当前数值，按10，11递增最多减20\n每减少一次抽取一张牌</string>
+    <string name="view_2_2_1">扣除mp后将mp和mp上限取为两者的平均值</string>
+    <string name="view_2_2_2">获得buff:每回合开始时mp+25</string>
+    <string name="view_2_2_3">mp+40</string>
+    <string name="view_2_2_4">回合结束手牌放回弃牌库时，每放回一张额外获得2mp</string>
+    <string name="view_2_3_1">获得buff:每次使用技能后，mp+5</string>
+    <string name="view_2_3_2">mp+40,并获得buff:回合开始时，mp-5</string>
+    <string name="view_2_3_3">减少hp至1，每减少3hp则mp+1</string>
+    <string name="view_2_3_4">mp+ 当前Combo数值\n可使用三次  使用后进入1cd</string>
+
+
+    <string name="sk_3_1_1">mp 5\n交易\n3</string>
+    <string name="sk_3_1_2">mp 15\n单色\n3</string>
+    <string name="sk_3_1_3">mp 15\n创造\n9</string>
+    <string name="sk_3_1_4">mp 30\n规模\n1</string>
+    <string name="sk_3_2_1">mp 51\n抽卡5\n3</string>
+    <string name="sk_3_2_2">mp 10\n回流\n9</string>
+    <string name="sk_3_2_3">mp 10\n回收\n3</string>
+    <string name="sk_3_2_4">mp 5\n延迟\n9</string>
+    <string name="sk_3_3_1">mp 3\n计数降低\n9</string>
+    <string name="sk_3_3_2">mp 3\n计数增加\n9</string>
+    <string name="sk_3_3_3">mp 25\n金字塔\n1</string>
+    <string name="sk_3_3_4">mp 15\n复苏\n1</string>
+
+    <string name="view_3_1_1">选择一张手牌丢弃，抽取一张牌,若数值大于等于6,则额外抽取一张\n可使用三次</string>
+    <string name="view_3_1_2">选择一张手牌，将所有手牌颜色变为与它相同\n可使用三次</string>
+    <string name="view_3_1_3">随机生成一张卡牌并加入手牌\n可使用九次</string>
+    <string name="view_3_1_4">获得四回合buff:回合开始时额外抽取两张牌(实际只生效三次)</string>
+    <string name="view_3_2_1">抽5张牌\n可使用三次</string>
+    <string name="view_3_2_2">将全部手牌放回牌库，然后随机抽取相同数量的手牌\n可使用三次</string>
+    <string name="view_3_2_3">使场地技能使用次数回满\n可使用三次</string>
+    <string name="view_3_2_4">使对手mp-5(不会低于0)\n可使用九次</string>
+    <string name="view_3_3_1">选择一张手牌，使其数值减1\n可使用九次</string>
+    <string name="view_3_3_2">选择一张手牌，使其数值加1\n可使用九次</string>
+    <string name="view_3_3_3">获得四回合buff:回合结束时，保留手牌(不会触发扣除手牌回5mp)</string>
+    <string name="view_3_3_4">使其他普通技能的使用次数加1(不可超过上限)</string>
+
+
+    <string name="sk_4_1_1">mp 10\n再生\n1</string>
+    <string name="sk_4_1_2">mp 15\n治愈\n1</string>
+    <string name="sk_4_1_3">mp 20\n恢复\n1</string>
+    <string name="sk_4_1_4">mp 50\n过载\n1</string>
+    <string name="sk_4_2_1">mp 1\nmp转hp\n3</string>
+    <string name="sk_4_2_2">mp 30\n搏命\n1</string>
+    <string name="sk_4_2_3">mp 10\n共生\n1</string>
+    <string name="sk_4_2_4">mp 15\n技能424\n3</string>
+    <string name="sk_4_3_1">mp 0\n\n1</string>
+    <string name="sk_4_3_2">mp 0\n\n1</string>
+    <string name="sk_4_3_3">mp 0\n\n1</string>
+    <string name="sk_4_3_4">mp 0\n\n1</string>
+
+    <string name="view_4_1_1">并获得五回合buff:回合开始时，hp+10</string>
+    <string name="view_4_1_2">hp+50</string>
+    <string name="view_4_1_3">将hp恢复至上限</string>
+    <string name="view_4_1_4">hp+200，hpmax+200，mp-99(可超过下限)</string>
+    <string name="view_4_2_1">消耗所有mp，并恢复等量hp\n可使用三次</string>
+    <string name="view_4_2_2">将hp恢复至上限，获得buff:每回合开始时减少当前一半hp(向下取整)</string>
+    <string name="view_4_2_3">使自身和对方血量均恢复到上限</string>
+    <string name="view_4_2_4">将当前的累计攻击力转化为血量\n可使用三次</string>
+    <string name="view_4_3_1"> </string>
+    <string name="view_4_3_2"> </string>
+    <string name="view_4_3_3"> </string>
+    <string name="view_4_3_4"> </string>
+
+    <string name="sk_5_1_1">mp 0\n归零\n3</string>
+    <string name="sk_5_1_2">mp 0\n洗澡\n1</string>
+    <string name="sk_5_1_3">mp 20\n净化\n3</string>
+    <string name="sk_5_1_4">mp 0\n共享\n3</string>
+    <string name="sk_5_2_1">mp 10\n方块\n3</string>
+    <string name="sk_5_2_2">mp 10\n压平\n3</string>
+    <string name="sk_5_2_3">mp 10\n刻印\n3</string>
+    <string name="sk_5_2_4">mp 0\n\n1</string>
+    <string name="sk_5_3_1">mp 5\n保留\n3</string>
+    <string name="sk_5_3_2">mp 30\n撤离\n3</string>
+    <string name="sk_5_3_3">mp 35\单数\n3</string>
+    <string name="sk_5_3_4">mp 0\n\n1</string>
+
+    <string name="view_5_1_1">将自身mp设置为0\n可使用三次</string>
+    <string name="view_5_1_2">清除自身所有buff,包括正负面</string>
+    <string name="view_5_1_3">清除自身所有负面buff,每清除一个，恢复5hp\n可使用三次</string>
+    <string name="view_5_1_4">使自身和对方mp+5\n可使用三次</string>
+    <string name="view_5_2_1">(方块卡牌打出后，可继续打牌)\n向手牌添加一张方块\n可使用三次</string>
+    <string name="view_5_2_2">使自身和对方的累计攻击力减少40(不可低于0)\n可使用三次</string>
+    <string name="view_5_2_3">生成一张文字和上一张展示卡牌一样的卡牌加入手牌\n可使用三次(若展示手牌为空则不生效)</string>
+    <string name="view_5_2_4">选择一张手牌送给对方\n可使用三次</string>
+    <string name="view_5_3_1">(获得"保留"的卡牌回合结束不会进入弃牌库，该效果打出后消失)\n选择一张手牌获得"保留"\n可使用三次</string>
+    <string name="view_5_3_2">(获得"保留"的卡牌回合结束不会进入弃牌库，该效果打出后消失)\n使当前所有手牌获得"保留"\n可使用三次</string>
+    <string name="view_5_3_3">选择一张手牌，将所有手牌数值变为与它相同\n可使用三次</string>
+    <string name="view_5_3_4"> </string>
+
+<!--    写一个需要选两张牌的技能?-->
+    <string name="sk_6_1_1">mp 0\n\n1</string>
+    <string name="sk_6_1_2">mp 0\n\n1</string>
+    <string name="sk_6_1_3">mp 0\n\n1</string>
+    <string name="sk_6_1_4">mp 0\n\n1</string>
+    <string name="sk_6_2_1">mp 0\n\n1</string>
+    <string name="sk_6_2_2">mp 0\n\n1</string>
+    <string name="sk_6_2_3">mp 0\n\n1</string>
+    <string name="sk_6_2_4">mp 0\n\n1</string>
+    <string name="sk_6_3_1">mp 0\n\n1</string>
+    <string name="sk_6_3_2">mp 0\n\n1</string>
+    <string name="sk_6_3_3">mp 0\n\n1</string>
+    <string name="sk_6_3_4">mp 0\n\n1</string>
+
+    <string name="view_6_1_1"> </string>
+    <string name="view_6_1_2"> </string>
+    <string name="view_6_1_3"> </string>
+    <string name="view_6_1_4"> </string>
+    <string name="view_6_2_1"> </string>
+    <string name="view_6_2_2"> </string>
+    <string name="view_6_2_3"> </string>
+    <string name="view_6_2_4"> </string>
+    <string name="view_6_3_1"> </string>
+    <string name="view_6_3_2"> </string>
+    <string name="view_6_3_3"> </string>
+    <string name="view_6_3_4"> </string>
+
+
+    <string name="sk_7_1_1">mp 0\n\n1</string>
+    <string name="sk_7_1_2">mp 0\n\n1</string>
+    <string name="sk_7_1_3">mp 0\n\n1</string>
+    <string name="sk_7_1_4">mp 0\n\n1</string>
+    <string name="sk_7_2_1">mp 0\n\n1</string>
+    <string name="sk_7_2_2">mp 0\n\n1</string>
+    <string name="sk_7_2_3">mp 0\n\n1</string>
+    <string name="sk_7_2_4">mp 0\n\n1</string>
+    <string name="sk_7_3_1">mp 0\n\n1</string>
+    <string name="sk_7_3_2">mp 0\n\n1</string>
+    <string name="sk_7_3_3">mp 0\n\n1</string>
+    <string name="sk_7_3_4">mp 0\n\n1</string>
+
+    <string name="view_7_1_1"> </string>
+    <string name="view_7_1_2"> </string>
+    <string name="view_7_1_3"> </string>
+    <string name="view_7_1_4"> </string>
+    <string name="view_7_2_1"> </string>
+    <string name="view_7_2_2"> </string>
+    <string name="view_7_2_3"> </string>
+    <string name="view_7_2_4"> </string>
+    <string name="view_7_3_1"> </string>
+    <string name="view_7_3_2"> </string>
+    <string name="view_7_3_3"> </string>
+    <string name="view_7_3_4"> </string>
+
+    <string name="sk_10_1_1">mp 15\n切分\n2</string>
+    <string name="sk_10_1_2">mp 25\n小型涡轮\n1</string>
+    <string name="sk_10_1_3">mp 15\n小型冻结\n1</string>
+    <string name="sk_10_1_4">mp 0\n填充方块\n1</string>
+    <string name="sk_10_2_1">mp 5\n转化方块\n1</string>
+    <string name="sk_10_2_2">mp 15\n重置\n1</string>
+    <string name="sk_10_2_3">mp 30\n小型魔法\n1</string>
+    <string name="sk_10_2_4">mp 40\n复活\n1</string>
+    <string name="sk_10_3_1">mp 40\n星尘\n1</string>
+    <string name="sk_10_3_2">mp 10\n拉条\n1</string>
+    <string name="sk_10_3_3">mp 25\n白魔法\n1</string>
+    <string name="sk_10_3_4">mp 20\n黑魔法\n1</string>
+
+    <string name="view_10_1_1">选择一张卡牌，按数值将其分成两张\n可使用两次</string>
+    <string name="view_10_1_2">抽一张牌，并将所有卡牌花色变为x(黄色)</string>
+    <string name="view_10_1_3">根据本回合打出的花色种类个数，抽取等量的牌\n使用后进入冻结本回合不能触发额外抽牌</string>
+    <string name="view_10_1_4">持续消耗8mp，每消耗一次则获得一张方块</string>
+    <string name="view_10_2_1">选择一张手牌将其变为方块</string>
+    <string name="view_10_2_2">将弃牌库所有牌放回牌库，根据放回张数恢复等量hp，并刷新展示卡牌</string>
+    <string name="view_10_2_3">抽牌直到手牌变为两张，再抽一张牌，生成一张方块加入手牌，hp+5，mp+5，对方mp-5</string>
+    <string name="view_10_2_4">使所有普通技能使用次数恢复至上限</string>
+    <string name="view_10_3_1">选择一张手牌进入弃牌库，并根据其数值获得等量的方块\n该方块打出后不会进入弃牌库</string>
+    <string name="view_10_3_2">使第一个技能的使用次数+1(不可超过上限，会跳过红色技能)</string>
+    <string name="view_10_3_3">mp+5，mpmax+5，hp+5，hpmax+5，本场每使用一次额外使自身mp+2，hp+2</string>
+    <string name="view_10_3_4">使对方mp-5，本场每使用一次额外使对方mp-2和此技能mp需求-2(不会低于0)</string>
+
+
+    <string name="sk_11_1_1">mp 10\n心之转换\n1</string>
+    <string name="sk_11_1_2">mp 0\n熔炉\n1</string>
+    <string name="sk_11_1_3">mp 0\n\n1</string>
+    <string name="sk_11_1_4">mp 0\n\n1</string>
+    <string name="sk_11_2_1">mp 0\n\n1</string>
+    <string name="sk_11_2_2">mp 0\n\n1</string>
+    <string name="sk_11_2_3">mp 0\n\n1</string>
+    <string name="sk_11_2_4">mp 0\n\n1</string>
+    <string name="sk_11_3_1">mp 0\n\n1</string>
+    <string name="sk_11_3_2">mp 0\n\n1</string>
+    <string name="sk_11_3_3">mp 0\n\n1</string>
+    <string name="sk_11_3_4">mp 0\n\n1</string>
+
+    <string name="view_11_1_1">将手牌中所有特殊卡牌变为随机的普通卡牌</string>
+    <string name="view_11_1_2">将手牌中所有“三角”替换为方块，每替换一张就减少5mp</string>
+    <string name="view_11_1_3"> </string>
+    <string name="view_11_1_4"> </string>
+    <string name="view_11_2_1"> </string>
+    <string name="view_11_2_2"> </string>
+    <string name="view_11_2_3"> </string>
+    <string name="view_11_2_4"> </string>
+    <string name="view_11_3_1"> </string>
+    <string name="view_11_3_2"> </string>
+    <string name="view_11_3_3"> </string>
+    <string name="view_11_3_4"> </string>
+
+
+    <string name="sk_mode_0_1">默认模式</string>
+    <string name="sk_mode_1_1">模式1</string>
+    <string name="sk_mode_1_2">模式1_2</string>
+    <string name="sk_mode_1_3">模式1_3</string>
+    <string name="sk_mode_1_4">模式1_4</string>
+    <string name="sk_mode_2_1">模式2</string>
+    <string name="sk_mode_2_2">模式2_2</string>
+    <string name="sk_mode_3_1">模式3</string>
+    <string name="sk_mode_4_1">模式4</string>
+    <string name="sk_mode_5_1">模式5</string>
+    <string name="sk_mode_6_1">模式6</string>
+    <string name="sk_mode_7_1">模式7</string>
+    <string name="sk_mode_7_2">模式7_2</string>
+    <string name="sk_mode_8_1">模式8</string>
+    <string name="sk_mode_9_1">模式9</string>
+    <string name="sk_mode_10_1">模式10</string>
+    <string name="sk_mode_10_2">模式10_2</string>
+    <string name="sk_mode_11_1">模式11</string>
+    <string name="sk_mode_12_1">模式12</string>
+    <string name="sk_mode_12_2">模式12_2</string>
+    <string name="sk_mode_13_1">模式13</string>
+    <string name="sk_mode_13_2">模式13_2</string>
+    <string name="sk_mode_14_1">模式14</string>
+    <string name="sk_mode_14_2">模式14_2</string>
+    <string name="sk_mode_15_1">模式15</string>
+    <string name="sk_mode_16_1">模式16</string>
+    <string name="sk_mode_17_1">模式17</string>
+    <string name="sk_mode_17_2">模式17_2</string>
+    <string name="sk_mode_18_1">模式18</string>
+    <string name="sk_mode_19_1">模式19</string>
+    <string name="sk_mode_20_1">模式20</string>
+    <string name="sk_mode_20_2">模式20_2</string>
+    <string name="sk_mode_21_1">模式21</string>
+    <string name="sk_mode_21_2">模式21_2</string>
+
+
+    <string name="mode_0_1">游戏玩法:牌库为5种颜色的1~8
+    \n出牌需要打出的卡牌与上一张卡牌同颜色或者数值相差在1之内
+    \n额外出牌需要打出的卡牌与上一张同数值或者同颜色且数值相差在1之内
+    \n回合开始会将上一张卡牌变为空白,为空白可以打出任意卡牌</string>
+    <string name="mode_1_1">打出x黄色卡牌时会刻印数据
+    \n下次打出该数字的卡牌时，会触发触发交叉刻印
+    \n触发交叉刻印会额外抽取一张卡牌</string>
+    <string name="mode_2_1">游戏开始时向牌库添加3张方块
+    \n若手牌剩余1张时进行出牌，会额外抽取3张
+    \n(方块卡牌打出后，可继续打牌)</string>
+    <string name="mode_2_2">游戏开始时向牌库添加3张方块
+    \n打出方块时，额外抽牌数+1
+    \n若手牌剩余1张时进行出牌，会额外抽取5张，并刷新场地技能
+    \n(方块卡牌打出后，可继续打牌)
+    \n使用场地技能“方块”后，向牌库添加一张牌</string>
+    <string name="mode_6_1">抽牌数+2
+    \n差值为2且不同色的卡牌也可以打出,
+    \n打出时,mp-2(不会低于0),且获得一张"方块"(该"方块卡牌打出后不会进入弃牌库")
+    \n场地技能“弃疗”:选择一张手牌丢弃，并恢复15血量，若丢弃特殊卡牌，则额外抽取两张牌
+    </string>
+    <string name="mode_10_1">连续打出同种颜色可收集该颜色元素
+    \n收集时额外抽取1张牌，每种颜色仅限1次
+    \n所有颜色均收集后触发全元素爆发,刷新所有元素收集,并刷新场地技能使用次数
+    \n每回合开始清除元素收集</string>
+    <string name="mode_10_2">连续打出同种颜色可收集该颜色元素
+    \n双方共享元素收集结果
+    \n收集时额外抽取1张牌且继续打牌，每种颜色仅限收集1次
+    \n所有颜色均收集后触发全元素爆发,刷新所有元素收集次数
+    \n每回合开始清除元素收集</string>
+    <string name="mode_11_1">打出x黄色卡牌时会刻印数据，且可以继续打牌
+    \n下次打出该数字的卡牌时，会触发触发交叉刻印
+    \n触发交叉刻印会额外抽取一张卡牌，若触发的数值大于1，则刷新场地技能
+    \n敌我双方共享刻印数据</string>
+    <string name="mode_12_1">每回合开始拥有三格电,打牌时恢复电量等量血量
+    \n拥有电量打出x黄色卡牌时,消耗1电量并额外抽取一张牌
+    \n每回合首次电量归0,基础攻击力+1
+    \n使用场地技能“超级涡轮”可以充满电量</string>
+    <string name="mode_12_2">游戏开始拥有五格电,每回合开始会将电量回满
+    \n拥有电量时，打出x黄色卡牌,消耗1电量，mp+4
+    \n电量为0时，打出x黄色卡牌扣除电量上限的血量(不会低于0)
+    \n使用场地技能“超级涡轮”可以充满电量,且每使一张卡牌变成黄色，则抽取一张牌</string>
+    <string name="mode_13_1">打出s,h,d,c会获取对应碎片填入对应格子
+    \n每回合首次打出x根据填入碎片数量抽牌,随后本回合进入冻结，无法额外抽牌</string>
+    <string name="mode_13_2">打出s,h,d,c会获取对应碎片填入对应格子
+    \n双方共享填入碎片结果,若填到四个则刷新场地技能且可以继续打牌
+    \n每回合首次打出x根据填入碎片数量抽牌,随后本回合进入冻结，无法额外抽牌
+    \n若填入格子数量达到4个，则触发完全解放,不会进入冻结,且可以再次打出x进行抽牌
+    \n每回合开始时清除已填入的碎片</string>
+    <string name="mode_14_1">游戏开始时将所有x卡牌替换为方块
+    \n违反规则会提升对方1点基础攻击力
+    \n1.不可打出比上一张更小的数字
+    \n2.不可连续打出三张同色卡牌
+    \n3.mp达到50及以上禁止出牌
+    \n4.手牌达到8张禁止出牌
+    \n5.只能在Combo被4整除时回合结束</string>
+    <string name="mode_14_2">抽牌数+1, 游戏开始时向牌库添8张方块
+    \n打出方块时，额外抽牌数+1
+    \n违反规则会提升对方1点基础攻击力
+    \n添加方块: 违反规则(1~4)会额外获得一张"方块"加入手牌，并刷新双方场地技能
+    \n(此效果触发后直到另一方也违反1~4才能再次触发)
+    \n1.不可打出比上一张更小的数字
+    \n2.不可连续打出三张同色卡牌
+    \n3.mp达到50及以上禁止出牌
+    \n4.手牌达到8张禁止出牌
+    \n5.只能在Combo被4整除时回合结束
+    \n6.回合结束时Combo不能小于回合数
+    \n场地效果与场地技能获得"方块"卡牌均不会进入弃牌库</string>
+    <string name="mode_16_1">打出不能打出的牌后进入反转状态
+    \n反转状态下只能打出平时不能打出的牌,并且打牌后双方mp-2(可以低于0)
+    \n打出三角时可继续打牌
+    \n牌库增加一整套卡牌
+    \n若手牌剩余1张时进行出牌，会额外抽取3张
+    \n场地技能“反转方块”:选择一张手牌变为方块,若为反转状态下则是变为三角</string>
+    <string name="mode_17_1">抽牌数+2, 牌库增加一整套卡牌
+    \n每回合开始场地会抽取一张牌，回合结束会将牌放回弃牌库
+    \n玩家打牌后，累计电力,场地卡牌可以打出时,则会打出场并再次抽取一张
+    \n场地卡牌打出时若可以触发额外抽牌,则对对方造成卡牌数值的伤害
+    \n每累计15点电力则消耗并使伤害增加100%</string>
+    <string name="mode_17_2">抽牌数+2, 牌库增加一整套卡牌
+    \n每回合开始场地会抽取一张牌，回合结束会将牌放回弃牌库
+    \n玩家打牌后，累计电力,场地卡牌可以打出时,则会打出场并再次抽取一张
+    \n场地卡牌打出时若可以触发额外抽牌,则对对方造成卡牌数值的伤害,额外抽牌数+1,且可以继续打牌
+    \n每累计15点电力则消耗并使伤害增加100%</string>
+    <string name="mode_18_1">每次打牌后，所有卡牌数值减1
+    \n减至0的卡牌变为"三角"(与方块相反，任何情况都不能出牌)
+    \n出牌后手中每拥有一张三角则减少等量血量(不会低于1)
+    \n若手牌剩余1张时进行出牌，会额外抽取3张
+    \n打出x后刷新场地技能
+    \n场地技能“熔炉”:把所有三角替换为方块，每替换一张就向牌库增加一张牌</string>
+    <string name="mode_21_1">出牌后以Combo个位数数值相同同调
+    \n同调时额外抽1张牌，且可以继续打牌
+    \n1~8全部触发一遍同调后触发完全同调
+    \n触发完全同调会刷新一次场地技能</string>
+    <string name="mode_21_2">抽牌数+2
+    \n出牌后以Combo个位数数值相同同调
+    \n同调时额外抽1张牌，且可以继续打牌
+    \n1~8全部触发一遍同调后触发完全同调
+    \n触发完全同调时，自身累计伤害增加对方累计伤害，双方刷新场地技能</string>
+</resources>

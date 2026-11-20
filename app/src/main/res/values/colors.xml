@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#FF2196F3</color>
+    <color name="gray">#5833FF</color>
+    <color name="color_gray_information">#aa444444</color>
+    <color name="color_gray_skills">#88888888</color>
+    <color name="color_gray_segmentation">#77666666</color>
+    <color name="color_btn_end_round">#44FF0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="skills_background_cantouch">#AA2196F3</color>
+    <color name="skills_background_notcan">#222196F3</color>
+    <color name="skills_stroke_cantouch">#FF2196F3</color>
+    <color name="skills_stroke_notcan">#442196F3</color>
+    <color name="skills_red_background_cantouch">#55DD0000</color>
+    <color name="skills_red_background_notcan">#22AA0000</color>
+    <color name="skills_red_stroke_cantouch">#BBFF0000</color>
+    <color name="skills_red_stroke_notcan">#44FF0000</color>
+    <color name="skills_num">#99888888</color>
+    <color name="skills_cd">#40000000</color>
+    <string name="color_x">dbe604</string>
+    <string name="color_s">0000FF</string>
+    <string name="color_d">9C27B0</string>
+    <string name="color_c">00FF00</string>
+    <string name="color_h">FF0000</string>
+    <string name="color_gray">CCCCCC</string>
+</resources>
+
+<!--    public static final String color_x = "dbe604"; // 黄 FFFFFF00-->
+<!--    public static final String color_s = "DD0000FF"; // 蓝-->
+<!--    public static final String color_d = "9C27B0"; // 紫-->
+<!--    public static final String color_c = "00FF00"; // 绿-->
+<!--    public static final String color_h = "FF0000"; // 红-->
+<!--    public static final String color_gray = "CCCCCC"; // 灰  FF888888 FF444444-->

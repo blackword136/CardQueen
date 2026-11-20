@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#40000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/cc_btn_menu"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        app:cornerRadius="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/cc_btn_remove"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.126"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.15"
+        android:layout_marginTop="96dp"
+        android:text="打牌"
+        app:cornerRadius="0dp"
+        app:layout_constraintRight_toLeftOf="@id/cc_view_segmentation"
+        app:layout_constraintBottom_toTopOf="@id/turn_view"/>
+    <TextView
+        android:id="@+id/turn_view"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.126"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.46"
+        app:layout_constraintRight_toLeftOf="@id/cc_view_segmentation"
+        app:layout_constraintBottom_toTopOf="@id/cc_layout_tag_container"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/cc_layout_tag_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.25"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10dp"
+        android:background="#80FFFFFF"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/cc_view_segmentation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+    <!--    android:gravity="center_vertical"-->
+
+    <View
+        android:id="@+id/cc_view_segmentation"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.02"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/cc_layout_right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cc_layout_right"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.18"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:gravity="center_horizontal"
+        >
+    <Button
+        android:id="@+id/cc_btn_move_left"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.15"
+        android:textSize="10sp"
+        android:text="《-"
+        android:singleLine="true"
+        android:backgroundTint="@color/color_btn_end_round"
+        app:cornerRadius="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/cc_btn_move_right"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <Button
+        android:id="@+id/cc_btn_move_right"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.15"
+        android:textSize="10sp"
+        android:text="-》"
+        android:singleLine="true"
+        android:backgroundTint="@color/color_btn_end_round"
+        app:cornerRadius="0dp"
+        app:layout_constraintLeft_toRightOf="@id/cc_btn_move_left"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
