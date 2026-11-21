@@ -1,6 +1,9 @@
-# 卡牌皇后（Text）
+# 卡牌皇后（QueenX）
 
-一款 Android 平台的卡牌对战类单机/联机游戏，使用 Java 开发。
+一款 Android 平台的卡牌对战类双人联机游戏，使用 Java 开发。
+
+游戏音乐和图片由网络获取，如果侵权会删除
+The game music and images are sourced from the internet, and will be deleted if they infringe on any rights.
 
 ## 功能
 
