@@ -44,3 +44,9 @@ gradlew.bat assembleDebug
 生成的安装包位于 `app/build/outputs/apk/debug/app-debug.apk`。
 
 > 首次编译前请确认 `local.properties` 中的 `sdk.dir` 指向本机 Android SDK 路径（该文件不会提交到仓库，需本地自行生成）。
+
+## 版权与许可
+
+- **源代码**：采用 [MIT License](LICENSE)，可自由使用、修改、分发，只需保留版权声明
+- **游戏素材**：`app/src/main/res/raw` 的音效语音、`app/src/main/res/drawable` 的角色立绘与卡面均来自网络，版权归各自原作者所有，**不受 MIT License 覆盖**
+- 本项目仅用于学习与交流，不作商业用途。若相关素材侵犯了你的权益，请提交 Issue，会尽快删除
